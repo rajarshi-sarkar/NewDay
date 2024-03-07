@@ -1,0 +1,5 @@
+{
+    "app_name": "movie_analysis",
+    "source_dir": "data/input",
+    "destination_dir": "data/output"
+}
