@@ -11,8 +11,8 @@
 
 ## Execution
  ### Local
-  > This program is supported with Makefile (commandsforwindows). Once executed using 'make all' command will execute pytest module followed by build. Once executed new zip files will be created under \dist directory which will be used for submitting the spark job.
+  * This program is supported with Makefile (commandsforwindows). Once executed using 'make all' command will execute pytest module followed by build. Once executed new zip files will be created under \dist directory which will be used for submitting the spark job.
   Note: this needs to be executed only if there is a change in source code
-  > There is a requirements.txt file to suport intalling required packages 'pip install -r requirements'.
-  > Use following spark submit command to execute the program
-    **spark-submit --py-files dist\jobs.zip,dist\extract.zip,dist\transform.zip,dist\load.zip --files configuration.json main.py --job movieanalysis**
+  * There is a requirements.txt file to suport intalling required packages 'pip install -r requirements'.
+  * Use following spark submit command to execute the program
+   * **spark-submit --py-files dist\jobs.zip,dist\extract.zip,dist\transform.zip,dist\load.zip --files configuration.json main.py --job movieanalysis**
