@@ -25,5 +25,7 @@ def run_job(spark, config):
         spark,
         config,
         movie_ratings,
-        rating_based_selection
+        rating_based_selection,
+        movies_raw,
+        ratings_raw
         )

@@ -1,6 +1,8 @@
-all: test build
-test:
+all: unit-test build
+
+unit-test:
 	pytest test
+
 build:
 	rmdir /s .\dist && mkdir .\dist
 	copy .\main.py .\dist
